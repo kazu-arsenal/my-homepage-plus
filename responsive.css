@@ -1,0 +1,214 @@
+@media all and (min-width:1025px){
+    .recent-activity {
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+    .video {
+        margin: auto;
+    }
+    .news {
+        margin-top:auto;
+        margin-bottom: auto;
+    }
+    .contents {display: none;}
+
+}
+@media all and (max-width:1486px){
+    .box-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .recent-activity {
+        margin: auto;
+        margin-top: 20px;
+        width: 60%;
+    }
+    .video {
+        width: 85%;
+    }
+    .news {
+        width: 75%;
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media all and (max-width:1024px){
+    .carousel {
+        width: 70%;
+    }
+    .cp_box .cp_container {
+        height: 350px; 
+    }
+    .pc-contents {
+        display: none;
+    }
+    .contents {
+        width: 70%;
+    }
+    .recent-activity {
+        margin: auto;
+        width: 70%;
+    }
+    .video {
+        width: 80%;
+    }
+    .news {
+        width: 80%;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+
+
+
+}
+@media all and (max-width:985px) {
+    .recent-acitivity {
+        margin: auto;
+
+    }
+
+    .video {
+        width: 85%;
+    }
+}
+@media all and (max-width:768px) {
+
+    .pc-contents {
+        display: none;
+    }
+    .box-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+    .news {
+        width: 70%;
+        margin: 15px auto;
+    }
+    .cp_box .cp_container {
+        height: 420px; /* 開く前に見えている部分の高さ */
+    }
+    .recent-activity {
+        margin: auto;
+        width: 60%;
+    }
+    .video {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    footer {
+        height: 150px;
+    }
+    .gotop a{
+        font-size: 40px;
+    }
+
+}
+@media all and (max-width:670px){
+    .carousel {
+        width: 90%;
+    }
+    .contents {
+        width:88%;
+    }
+    .pc-contents {
+        display: none;
+    }
+    .section_name {
+        margin-top: 15px;
+    }
+    .col {
+        width :100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .col img:hover{
+        opacity: 0.5;
+      }
+      .box-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .cp_box .cp_container {
+        height: 500px; /* 開く前に見えている部分の高さ */
+    }
+    .recent-activity {
+        margin: auto;
+        width: 85%;
+    }
+    .news {
+        margin: 15px auto;
+        border: 6px solid gray;
+        height: auto;
+        width: 75%;
+    }
+    .sns{
+        margin-top: 15px;
+        padding:5px 10px;
+        margin: auto;
+        width: 90%;
+    }
+    .fa-search-plus {
+        font-size: 1.3em;
+        line-height: 31px;
+    }
+    .sns-header {
+        margin-left: 116px;
+    }
+    .sns_post{
+      padding-left: 0px;
+    }
+    .sns_post iframe{
+        width: 150px;
+        height: auto;
+    }
+    .post1 {display: none;}
+    .post2 {
+        margin-left: 5px;
+        margin-right:2px;
+    }
+    .post3 {
+        margin-right: 5px;
+    }
+    .card {
+        border-radius: 10px;
+    }
+    
+    footer{
+        height: 125px;
+    }
+    .gotop {
+        transition: none;
+    }
+    .gotop:hover{
+        color: black;
+    }
+    .gotop:active {
+        color: blueviolet;
+    }
+
+}
+@media all and (max-width:320px){
+    .pc-contents {
+        display: none;
+    }
+
+    .cp_box .cp_container {
+        height: 400px; /* 開く前に見えている部分の高さ */
+    }
+}
+@media all and (max-width:280px){
+    .pc-contents {
+        display: none;
+    }
+
+    .cp_box .cp_container {
+        height: 370px; /* 開く前に見えている部分の高さ */
+    }
+}

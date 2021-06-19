@@ -1,0 +1,51 @@
+@media all and (max-width:1200px){
+    td {
+        font-size: 15px;
+    }
+}
+@media all and (max-width:1024px) {
+    #sec1 {
+        margin-top: 70px;
+    }
+}
+@media all and (max-width:670px){
+    #sec1 {
+        margin-top: 50px;
+    }
+    th {
+        font-size: 16px;
+    }
+    td {
+        font-size: 14px;
+    }
+    .content {
+        width: 100%;
+    }
+    .box1 {
+        margin-top: 30px;
+    }
+    #sec2 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+}
+@media all and (max-width:490px){
+    .tab-br {
+        display: block;
+    }
+}
+@media all and (min-width:992px){
+    .box5 {
+        display:none;
+    }
+    .pc-box5 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 25px;
+        margin-bottom: 60px;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+}

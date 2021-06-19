@@ -1,0 +1,13 @@
+@media all and (max-width:1000px) {
+    footer {
+        height: 150px;
+    }
+    .gotop a{
+        font-size: 40px;
+    }
+}
+@media all and (max-width:670px){
+    footer{
+        height: 125px;
+    }
+}
